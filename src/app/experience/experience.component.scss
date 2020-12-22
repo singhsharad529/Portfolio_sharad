@@ -1,0 +1,120 @@
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background:url(../../assets/hero1.jpg) no-repeat center;
+    background-size:cover;
+    
+   
+    height:fit-content;
+    position:relative;
+     
+    }
+  
+    .contact-color{
+      background-color:  rgba(0,80,255,0.7);
+      background-size:cover;
+      height:fit-content;
+      padding:100px;
+    position:relative;
+    }
+
+
+    .contact-container{
+      position:relative;
+      width:fit-content;
+      display:grid;
+      grid-template-columns: auto auto;
+      padding: 10px;
+  
+    }
+    
+    .contact-item{
+     
+      padding: 20px;
+      text-align: left;
+      
+    }
+  
+  
+
+ 
+    
+ 
+
+
+#icon:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #fb7813 ;
+}
+
+
+.service-container{
+	display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+}
+
+.service-item{
+ 
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+
+.send-line{
+  width:60%;height:2px;
+
+}
+
+.get-line{
+  width:20%;height:2px;
+  }  
+   
+  
+  @media screen and (max-width: 580px) {
+   
+ 
+ 
+    .contact-color{
+      padding:10px;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 700px) {
+   
+     
+ 
+ 
+
+
+    .contact-container{
+       
+      grid-template-columns: auto ;
+      
+  
+    }
+
+    .contact-color{
+      padding:20px;
+    }
+    
+    
+     
+
+    
+.get-line{
+    width:35%;
+    }  
+     
+
+    
+     
+  }

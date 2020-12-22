@@ -1,0 +1,179 @@
+
+
+
+  @media screen and (max-width: 580px) {
+   
+
+
+    #image-tag{
+      
+      font-size: 15px;
+      margin:0px;
+      padding: 0px 0px 0px 0px;
+       
+      text-align: center;
+       
+       
+    }
+ 
+    .contact-color{
+      padding:10px;
+    }
+    
+  }
+
+
+  
+  .footer2-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+   
+    grid-gap:30px;
+  }
+  
+  .footer2-item{
+   
+    padding: 5px;
+    margin: 0px;
+    text-align: left;
+   
+     
+  }
+
+  .follow{
+    text-align: center;
+  }
+  
+
+  @media screen and (max-width: 1000px) {
+    .heroservice-text{
+      text-align:center;
+      position:absolute;  
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      color:white;
+    
+      
+    }
+    
+    .grid-container{
+	 
+      grid-template-columns: auto auto;
+       
+    }
+    
+
+    #image-tag{
+      
+      font-size: 15px;
+      margin:0px;
+      padding: 0px 0px 0px 0px;
+       
+      text-align: center;
+       
+       
+    }
+
+
+    .about-container{
+      grid-template-columns: auto auto auto;
+    }
+
+
+    .about-content{
+      padding:20px;
+    }
+
+    
+     
+    .footer2-container{
+     
+      grid-template-columns: auto;
+     
+    
+    }
+
+    .follow{
+      text-align: left;
+    }
+    
+
+
+  }
+
+
+  
+  @media screen and (max-width: 700px) {
+   
+     
+
+     
+    .hero{
+      margin-top: 0px;
+    }
+
+    
+.grid-container{
+	
+  grid-template-columns: auto ;
+  padding: 10px;
+  margin:0px;
+  grid-gap:70px;
+}
+
+.grid-item{
+ 
+  padding: 20px;
+  margin: 0px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+
+
+    .about-container{
+      grid-template-columns: auto;
+    }
+
+
+    .contact-container{
+       
+      grid-template-columns: auto ;
+      
+  
+    }
+
+    .contact-color{
+      padding:20px;
+    }
+    
+    
+     
+
+    
+.get-line{
+    width:35%;
+    }  
+     
+
+    .send-line{
+      width:45%;
+    
+    }
+
+    .modal-content{
+      width:310px;
+    }
+
+    .logo{
+      position:absolute;top: -53%; 
+   }
+   
+   .logo img{
+     width:250px;
+   
+   }
+     
+  }

@@ -1,0 +1,42 @@
+
+
+
+<br><br>
+<div class="designgallerytext"  id="designtext" >
+  <h2   style="font-weight: bold;text-align: center;">Trainings</h2>
+  <p class="subtext">At present, the competition for employment is increasing every
+     day and placement has become a challenging task. Training of students and equipping them with 
+     life skills has become an important responsibility of the institution. Along with technical 
+     expertise, development of a holistic personality is also necessary.
+     From a personal standpoint ,skills are an individual's capabilities gained through experiences, 
+     training & development to accomplish tasks or solve problems proficiently. 
+     Here are some Training Program where I 
+    was a part .....
+    </p></div>
+
+
+   
+<div>
+  <div class="grid-container" >
+    <div class="grid-item" *ngFor="let temp of trainingList">
+    <div><img  class="image" id={{temp.ids}}  src={{temp.image_url}} alt={{temp.alt}} width="250px"></div>	 
+      
+    
+       
+    
+  
+   
+     <p class={{temp.pclass}} id="image-tag"  ><span style="font-weight: bolder;">Training: </span>{{temp.training}}<br>
+      <span style="font-weight:bolder;">Organization: </span>{{temp.organization}} <br><span style="font-weight: bolder;">Date: </span>{{temp.date}}</p> 
+    </div>
+    
+     
+     
+
+       
+
+
+        
+  </div>  
+ </div>
+  

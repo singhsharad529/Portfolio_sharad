@@ -1,0 +1,62 @@
+<div  class="contact" id="contact">      
+    <div class="contact-color" >
+      <div class="contacttext" style="text-align: center;"><h2 style="font-weight: bold;color: white;">CONTACT ME</h2></div><br>
+    
+       
+      <div class="contact-container"  style="background-color:rgba(250,250,250);margin:auto;padding:5px;" >
+      <div class="contact-item" >
+      <h2 >SEND MESSAGE ME</h2>
+      <hr class="send-line" align="left" color="#fb7813" >
+      <form #addvisiter="ngForm" action="./content/about" target="_blank" (submit)="addNew(addvisiter)" > 
+        <div class="form-group">
+          <div><span *ngIf="fullname.invalid" class="error">*Name is required</span></div>
+        </div>
+        <input type="text" id="fname" name="fullname" placeholder="Your name.." style="margin:10px;padding:8px;" class="form-control" #fullname="ngModel" ngModel required><br>
+        
+
+        <div class="form-group">
+          <div><span *ngIf="email.invalid" class="error">*Correct email is required</span></div>
+        <input type="text" id="email" name="email" placeholder="Email" style="margin:10px;padding:8px;" class="form-control" #email="ngModel" ngModel email required><br>
+        </div>
+        
+        <div class="form-group">
+          
+        <input type="text" id="subject" name="subject" placeholder="Subject" style="margin:10px;padding:8px;" class="form-control"  ngModel ><br>
+        </div>
+
+        <div class="form-group">
+
+          <textarea id="message" name="message" placeholder="Write something.."  style="margin:10px;padding:8px;height:200px" class="form-control" ngModel></textarea>
+        </div>
+
+        <br><input type="submit" [disabled]="!addvisiter.valid" style="margin:10px;">
+      </form>
+      </div>
+     
+      
+      <div class="contact-item">
+        <h2 >GET IN TOUCH</h2>
+        <hr class="get-line" align="left" color="#fb7813" >
+        <p>Communication is most important feature of a business. It is important to sharing out one’s thoughts and feelings to live a fuller and happier life. The more we communicate the less we suffer and the better we feel about everything around.So here i am, let's message Me !!</p>
+        <div><i class="material-icons" style="color:#fb7813;">location_on</i> 
+        <h5>Noida Sector - 31 (U.P)</h5></div>
+        <div ><i class="material-icons" style="color:#fb7813;">local_phone</i>
+        <h5>+91 9716805427</h5></div>
+       <div> <i class="material-icons" style="color:#fb7813;">mail</i>
+        <h5>singhsharad529@gmail.com</h5>
+
+       </div>
+
+       <div><a href="https://www.facebook.com/sharad.singh.712714/" style="color: black;"><i class='fa fa-facebook' id="icon" style="font-size:36px;border-radius: 50%;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+         
+       <a href="mailto:singhsharad529@gmail.com" style="color:black"> <i class='fa fa-google' id="icon" style="font-size:36px;border-radius: 50%;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+       <a href="https://twitter.com/singhsharad529" style="color: black;"> <i class='fa fa-twitter' id="icon" style="font-size:36px;border-radius: 50%;"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+      </div>
+      </div>
+
+    </div>
+
+
+    </div>
+
+      </div>

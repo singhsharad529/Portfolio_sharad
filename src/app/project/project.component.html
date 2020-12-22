@@ -1,0 +1,72 @@
+ 
+
+<div id="trainings"></div>
+<br><br>
+<div class="designgallerytext"  id="designtext" style="text-align: center;">
+  <h2   style="font-weight: bold;">Projects</h2>
+  <p class="subtext"> Right understanding of the definition and key characteristics 
+    of project is of significant importance. Any project is not just a way to make or
+     do something but it’s an opportunity to achieve some desired result by implementing
+      a systematic management approach (for example, producing a product or sharing knowledge).
+       An individual or organization involved in projects needs to understand how to solve complexity 
+       of problems through project management.Here are some ...
+
+  </p></div>
+
+
+   
+<div>
+  <div class="grid-container" >
+    <div class="grid-item" *ngFor="let temp of projectsList">
+    <div><img  class="image" id={{temp.ids}}  src={{temp.image_url}} alt={{temp.alt}} width="260px"></div>	 
+      
+    
+       
+    
+  
+   
+     <p class={{temp.pclass}} id="image-tag"  ><span style="font-weight: bolder;">Project Name: </span>{{temp.projectname}}<br><span style="font-weight:bolder;">Date: </span>{{temp.date}}
+      <br><span style="font-weight:bolder;">Description: </span>{{temp.description}}
+    </p> 
+    </div>
+    
+    <!-- <div class="grid-item">
+    <div><img  class="image" id="myImg2"   src="gallery/i2.jpg" alt="Channel Logo" width="260px" (click)='imageFun(this);'></div>	<div><button type="button"  class="btn btn-outline-success heading2" ><b>Read More</b></button></div>
+     
+
+    <p class="lead image-tag2" id="image-tag"><span style="font-weight: bolder;">Channel Logo: </span>Logo for a Youtube music channel called Three Seasons. Simple structure with mic and headphone and their name designed using different fonts and opacity level.<br><span style="font-weight:bolder;">Used Tool:</span> Coral Draw</p> 
+    
+    </div>
+    
+    <div class="grid-item">
+    <div><img  class="image" id="myImg3" src="gallery/i3.jpg" alt="Identity Card"  width="260px" (click)='imageFun(this);'></div>	<div><button type="button"  class="btn btn-outline-success heading3" ><b>Read More</b></button></div>
+    <p class="lead image-tag3" id="image-tag" ><span style="font-weight: bolder;">Identity Card: </span>Professional Id Card for company employees.With Company logo , employee's photo and his other important information.<br><span style="font-weight:bolder;">Used Tool:</span> Photoshop </p> 
+    
+    </div>
+    
+    <div class="grid-item">
+    <div><img  class="image" id="myImg4" src="gallery/i4.jpg"  alt="Shop Logo" width="300px" (click)='imageFun(this);'></div>	<div><button type="button"  class="btn btn-outline-success heading4" ><b>Read More</b></button></div>
+    <p class="lead image-tag4" id="image-tag" ><span style="font-weight: bolder;">Shop Logo: </span>Logo for a eye spax shop at Noida. Simple design with spax image and color effect. Used shade effect at different portion of the page<br><span style="font-weight:bolder;">Used Tool:</span> Photoshop + Coral Draw</p> 
+     
+    </div> 
+    
+    <div class="grid-item">
+    <div><img  class="image" id="myImg5" src="gallery/i5.jpg" alt="Produc Label"  width="300px" (click)='imageFun(this);'></div>	<div><button type="button"  class="btn btn-outline-success heading5" ><b>Read More</b></button></div>
+    <p class="lead image-tag5" id="image-tag" ><span style="font-weight: bolder;">Product Label: </span>Rough design of a Dairy Milk label. It contains all the information of the product and images. Proper alignment of the text with professional font style and light background-color<br><span style="font-weight:bolder;">Used Tool:</span> Photoshop + Illustrator</p> 
+     
+    </div>
+    
+    <div class="grid-item">
+    <div><img class="image" id="myImg6"  src="gallery/i6.jpg" alt="Business Card"  width="300px" (click)='imageFun(this);'></div>	<div><button type="button"  class="btn btn-outline-success heading6" ><b>Read More</b></button></div>
+    <p class="lead image-tag6" id="image-tag" ><span style="font-weight: bolder;">Business Card: </span>A Professional card for a fashion designer. With logo which is designed with fonts and colors . Contains Proper information of a owner.<br><span style="font-weight:bolder;">Used Tool:</span> Photoshop</p> 
+    </div> -->
+
+     
+
+       
+
+
+        
+  </div>  
+ </div>
+  

@@ -1,0 +1,75 @@
+.hero{
+    margin-top: 50px;
+    background:url(../../assets/Coding-2019.jpg) no-repeat center ;
+    background-size:cover;
+    height:630px;
+    position:relative;
+     
+    animation : slide 30s infinite;
+    }
+
+  @keyframes slide{
+    25%{ background: url(../../assets/hero5.png) no-repeat center;background-size:cover; height:630px; position:relative;color:#026ced;}
+    50%{ background: url(../../assets/hero3.jpg) no-repeat center;background-size:cover; height:630px; position:relative;}
+    75%{ background: url(../../assets/hero4.jpg) no-repeat center;background-size:cover; height:630px; position:relative;}
+    100%{ background: url(../../assets/Coding-2019.jpg) no-repeat center;background-size:cover; height:630px; position:relative;}
+    
+  }
+
+.hero-text{
+    
+    position:absolute;  
+    top:50%;
+    left:30%;
+    transform:translate(-30%,-30%);
+    color:white;
+    animation: change 30s infinite;
+ 
+    
+}
+
+
+@keyframes change{
+  25%{color:blue;}
+  50%{ color:white;}
+  75%{ color:blue;}
+  100%{ color:white; }
+   
+
+  
+}
+
+
+
+.heroservice-text{
+  text-align:left;
+  position:absolute;  
+  top:65%;
+  left:30%;
+  transform:translate(-50%,-70%);
+  color:white;
+
+  
+}
+.mainbutton{
+  
+  background-color:#026ced; 
+  color:white;
+  
+  padding:15px;
+  font-weight: bold;
+  border-radius:15px;
+  font-size:13px;
+  animation: 0.4s;
+  border:none;
+  outline: none;
+  
+}
+
+.mainbutton:hover{
+  background-color:blue;  
+  cursor: pointer;
+   
+  
+
+}

@@ -1,0 +1,224 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "name": "Rising People Welfare society, Delhi",
+      "post": "Digital Marketing Intern",
+      "description": "Worked on different strategies and tools which are helpful to enhance business digitally on the internet, like SEO, backlinks, social media marketing, and learned a lot of things.",
+      "duration": "Jul 2020 - Aug 2020 | Delhi, India"
+    },
+    {
+      "id": 1,
+      "name": "Student Council of Information and Technology B.I.E.T Jhansi",
+      "post": "Coordinator",
+      "description": "I am Working as a coordinator and organize different events for juniors and faculty members related to academic and cultural events like group discussion, debates, coding round, communication skill, etc.",
+      "duration": "Dec 2019 - currently a part | BIET Jhansi, India"
+    },
+    {
+      "id": 1,
+      "name": "Cultural Sub Council B.I.E.T Jhansi",
+      "post": "Coordinator",
+      "description": "That is a council which organize and handle all the events related to cultural activities in BIET Jhansi.I work as a coordinator and guide the juniors that how to perform on a stage,how to select an cultural activity according to our interest,how to interact with their seniors and faculties and also there are some other work like cultural fest where i work with my seniors and faculties",
+      "duration": "Jul 2019 - currently a part | BIET Jhansi, India"
+    }
+  ],
+  "trainings": [
+    {
+      "id": 1,
+      "image_url": "../assets/trainings1/cloudcomputing_p.jpg",
+      "ids": "myImg1",
+      "alt": "Cloud Computing",
+      "pclass": "lead",
+      "training": "Cloud Foundation/Cloud Computing",
+      "organization": "Great Learnings",
+      "date": "06/2020 – 06/2020"
+    },
+    {
+      "id": 2,
+      "image_url": "../assets/trainings1/digitalmarketing_p.jpg",
+      "alt": "Digital Marketing",
+      "pclass": "lead",
+      "training": "The Fundamentals of Digital Marketing",
+      "organization": "Google Digital Garage",
+      "date": "06/2020 – 06/2020"
+    },
+    {
+      "id": 3,
+      "image_url": "../assets/trainings1/game_p.jpg",
+      "alt": "Game Development",
+      "pclass": "lead",
+      "training": "Game Development Using Pygame",
+      "organization": "GUVI",
+      "date": "05/2020 – 05/2020"
+    },
+    {
+      "id": 4,
+      "image_url": "../assets/trainings1/java_p.jpg",
+      "alt": "Core Java",
+      "pclass": "lead",
+      "training": "Core Java Training",
+      "organization": "ICT Academy at IIT Kanpur",
+      "date": "06/2019 – 07/2019"
+    },
+    {
+      "id": 5,
+      "image_url": "../assets/trainings1/mysql_from_ict_p.jpg",
+      "alt": "Mysql",
+      "pclass": "lead",
+      "training": "MYSQL a Pratice Approach",
+      "organization": "ICT Academy at IIT Kanpur",
+      "date": "06/2019 – 07/2019"
+    },
+    {
+      "id": 6,
+      "image_url": "../assets/trainings1/networking_p.jpg",
+      "alt": "Computer Networking",
+      "pclass": "lead",
+      "training": "Computer Networking",
+      "organization": "CourseEra",
+      "date": "06/2020 – 06/2020"
+    },
+    {
+      "id": 7,
+      "image_url": "../assets/trainings1/python_p.jpg",
+      "alt": "Python",
+      "pclass": "lead",
+      "training": "Python",
+      "organization": "Udemy",
+      "date": "06/2020 – 06/2020"
+    },
+    {
+      "id": 8,
+      "image_url": "../assets/trainings1/web_develop_p.jpg",
+      "alt": "Full Stack Web Development",
+      "pclass": "lead",
+      "training": "Full Stack Web Development",
+      "organization": "Verzeo",
+      "date": "05/2020 – 07/2020"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "image_url": "../assets/projects/bank_project_p.jpg",
+      "alt": "Bank Project",
+      "pclass": "lead ",
+      "projectname": "Building a Text-Based Bank in Java",
+      "date": "04/2020-04/2020",
+      "description": "Bank Management system using concepts of java.I have used basic data structure concepts like Arrays and object oriented programming and build a Bank management system.Admin Can create and update a bank account and user can fetch the data of his bank account",
+      "github": "None"
+    },
+    {
+      "id": 2,
+      "image_url": "../assets/projects/java_project_p.jpg",
+      "alt": "Java Project",
+      "pclass": "lead ",
+      "projectname": "Prospect Encore Analysis",
+      "date": "06/2019-07/2019",
+      "description": "A software designed for a car showroom to manage a detailed database of it’s customers and employees. (using JAVA, MYSQL). There is a category of Admin and Employees . A admin can add a new employee and also can fetch the data of the employee as well as he can alter the data of the employees if it is necessay. And there is another category employee who can only fetch his own data and can change his data like username ,password,address etc. Both admin and employee can add,delete and alter the details of each customer who are visiting the showroom.",
+      "github": "None"
+    },
+    {
+      "id": 3,
+      "image_url": "../assets/projects/sql_project_p.jpg",
+      "alt": "sql project",
+      "pclass": "lead ",
+      "projectname": "Database Management System",
+      "date": "05/2020-06/2020",
+      "description": "A Database management system. In which we can manage data of a website. A grocery website where people purchase items and we have to manage all the details of customers as well as employees, like add/delete/update customers.",
+      "github": "None"
+    },
+    {
+      "id": 4,
+      "image_url": "../assets/projects/trpws_intern_p.jpg",
+      "alt": "Trwps Intern",
+      "pclass": "lead ",
+      "projectname": "Digital Marketing for The Rising People Walfare Society",
+      "date": "07/2020-08/2020",
+      "description": "Worked on different strategies and tools which are helpful to enhance your business on the internet, like seo,backlinks.social media marekting, and learned a lot of things.",
+      "github": "None"
+    },
+    {
+      "id": 5,
+      "image_url": "../assets/projects/Verzeo_Internship_p.jpg",
+      "alt": "Verzeo Internship",
+      "pclass": "lead ",
+      "projectname": "Interior Design Website",
+      "date": "07/2020-07/2020",
+      "description": "A Home Interior Design Website using different technology like HTML,CSS, JQUERY,Bootstrap, NODEJS etc. Project under Verzeo",
+      "github": "None"
+    }
+  ],
+  "contactme": [
+    {
+      "id": 1,
+      "name": "sharad singh",
+      "email": "singhsharad529@gmail.com",
+      "subject": "to create website",
+      "massage": ""
+    },
+    {
+      "name": "rony",
+      "email": "rony@gmail.com",
+      "subject": "to learn java",
+      "message": "javascript aati hai kya?",
+      "id": 2
+    },
+    {
+      "name": "sourabh singh",
+      "email": "sharad@gmail.com",
+      "subject": "learn graphich design",
+      "message": "hi kaise ho",
+      "id": 3
+    },
+    {
+      "name": "rony",
+      "email": "khan@gmail.com",
+      "subject": "to meet",
+      "message": "let's meet",
+      "id": 4
+    },
+    {
+      "name": "ramesh",
+      "email": "ramesh@gmail.com",
+      "subject": "wanna meet",
+      "message": "okay",
+      "id": 5
+    },
+    {
+      "name": "rahul",
+      "email": "roy@gmail.com",
+      "subject": "",
+      "message": "",
+      "id": 6
+    },
+    {
+      "name": "s",
+      "email": "s@gmail.com",
+      "subject": "",
+      "message": "",
+      "id": 7
+    },
+    {
+      "name": "ra",
+      "email": "ra@gmail.com",
+      "subject": "",
+      "message": "",
+      "id": 8
+    },
+    {
+      "name": "karan",
+      "email": "karan@gmail.com",
+      "subject": "",
+      "message": "",
+      "id": 9
+    },
+    {
+      "name": "sourabh singh",
+      "email": "sourabh@gmail.com",
+      "subject": "kuch nahi",
+      "message": "dekh le",
+      "id": 10
+    }
+  ]
+}
