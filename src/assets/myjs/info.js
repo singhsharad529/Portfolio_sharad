@@ -4,7 +4,7 @@ function myFun(){
 
 
 function contact(){
-  location.replace("http://localhost:4200/content/contact/");
+  location.replace("/content/contact/");
     
   
   }
